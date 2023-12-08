@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+button{
+    color: aliceblue;
+    background-color: inherit;
+    font-size: 25px;
+    border: 3px solid rgb(248, 127, 248);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.buttons-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.people-data, .starships-data, .vehicles-data, .planets-data{
+    margin-top: 20px;
+    display: grid;
+    gap: 2rem;
+    font-size: 25px;
+    width: 300px;
+}
+
+.people-data{
+    background-color: rgb(97, 4, 97);
+}
+
+.starships-data{
+    background-color: green;
+}
+
+.vehicles-data{
+    background-color: rgb(35, 35, 124);
+}
+
+.planets-data{
+    background-color: rgb(36, 136, 136);
+}
+
+.active{
+    background-color: darkmagenta;
+}
